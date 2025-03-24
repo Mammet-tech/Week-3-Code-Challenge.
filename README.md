@@ -9,11 +9,11 @@ Edwin Mammet
 ## Setup Instructions
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-repository-url.git
+   git clone https://github.com/Mammet-tech/Week-3-Code-Challenge.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd movie-ticket-booking
+   cd Week-3-Code-Challenge
    ```
 3. Install JSON server:
    ```sh
@@ -29,26 +29,25 @@ Edwin Mammet
 - View a list of available movies.
 - Check movie details including runtime, showtime, and available tickets.
 - Buy tickets (updates available ticket count in real-time).
-- Mark movies as **Sold Out** when tickets are no longer available.
+- Mark movies as sold out when tickets are no longer available.
 - Delete movies from the list.
 
 ## BDD (Behavior Driven Development)
-
 ### 1. Displaying Movies
-- **Input:** User loads the page.  
-- **Output:** A list of available movies is displayed.
+**Input:** User loads the page.  
+**Output:** A list of available movies is displayed.
 
 ### 2. Viewing Movie Details
-- **Input:** User clicks on a movie title.  
-- **Output:** The movie details, including title, poster, showtime, runtime, and available tickets, are displayed.
+**Input:** User clicks on a movie title.  
+**Output:** The movie details, including title, poster, showtime, runtime, and available tickets, are displayed.
 
 ### 3. Buying a Ticket
-- **Input:** User clicks the "Buy Ticket" button.  
-- **Output:** The available ticket count decreases. If no tickets are left, the movie is marked as **Sold Out**.
+**Input:** User clicks the "Buy Ticket" button.  
+**Output:** The available ticket count decreases. If no tickets are left, the movie is marked as "Sold Out."
 
 ### 4. Deleting a Movie
-- **Input:** User clicks the "Delete" button next to a movie.  
-- **Output:** The selected movie is removed from the list.
+**Input:** User clicks the "Delete" button next to a movie.  
+**Output:** The selected movie is removed from the list.
 
 ## Technologies Used
 - **HTML** - Structure of the web pages.
@@ -57,7 +56,7 @@ Edwin Mammet
 - **JSON Server** - Provides a mock API for movie data.
 
 ## Contact Information
-📧 Email: edwinmammet19@gmail.com
+Email: edwinmammet19@gmail.com
 
 ## License
 MIT License
